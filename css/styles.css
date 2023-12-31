@@ -8,11 +8,26 @@ body {
     line-height: 1.50;
     letter-spacing: 0.2em;
 }
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 a {
     text-decoration: none;
 }
+
 ul, ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .visually-hidden {
@@ -22,15 +37,23 @@ ul, ol {
 /*-------------------header------------------*/
 
 .header {
+border-bottom: 1px solid #E7E9FC;
 
+}
+
+.header-container {
+display: flex;
+align-items: center;
 }
 
 .header-navigator {
-
+display: flex;
+align-items: center;
 }
 
 .header-lict{
-
+display: flex;
+gap: 40px;
 }
 
 .header-item{
@@ -41,11 +64,14 @@ ul, ol {
     color: #4D5AE5;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.17;
+        line-height: 1.17
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        font-family: "Raleway", sans-serif
-}
+        font-family: "Raleway", sans-serif;
+        margin-right: 76px;
+    }
+
+
 
 .header-logo-part {
 color: #2E2F42;
@@ -63,6 +89,9 @@ color: #2E2F42;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px;
+        display: block;
+
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
@@ -71,10 +100,12 @@ color: #2E2F42;
 
 .header-address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .header-adress-list{
-
+display: flex;
+gap: 40px;
 }
 
 .header-address-item{
@@ -101,7 +132,6 @@ color: #404BBF;
 
  .hero {
     background: #2E2F42;
-
  }
 
  .hero-title {
