@@ -31,7 +31,17 @@ ul, ol {
 }
 
 .visually-hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
     
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
     }
 
 /*-------------------header------------------*/
@@ -212,7 +222,7 @@ color: #404BBF;
  }
 
  .features-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4));
     margin-right: 0;
 
 
