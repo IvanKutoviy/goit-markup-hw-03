@@ -227,8 +227,8 @@ color: #404BBF;
  }
 
  .features-item {
-    width: calc((100% - 72px) / 4);
-        margin-right: 0;
+    margin-right: 0;
+        width: calc((100% - 72px) / 4);
         
 }
 
