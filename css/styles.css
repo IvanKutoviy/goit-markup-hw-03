@@ -253,6 +253,8 @@ color: #404BBF;
 
  .team {
     background: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
  }
 
  .our-team {
@@ -263,14 +265,19 @@ color: #404BBF;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
  }
 
  .team-list {
+    display: flex;
+    gap: 24px;
     
  }
 
  .team-item {
+    margin-right: 0;
     background-color: #FFFFFF
+
  }
 
  .team-item-name {
@@ -296,6 +303,11 @@ color: #404BBF;
 /**--------------------------------------------*/
 
 /*-------------------portfolio------------------*/
+.portfolio {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
 
  .our-portfolio {
     color: #2E2F42;
@@ -306,11 +318,18 @@ color: #404BBF;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
  }
 
- .services-list {}
+ .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 48px;
+ }
 
- .services-list-item {}
+ .services-list-item {
+    width: calc((100% - 48px) / 3);
+ }
 
  .services-list-name {
     color: #2E2F42;
