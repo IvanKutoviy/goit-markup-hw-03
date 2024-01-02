@@ -24,6 +24,10 @@ ul, ol {
     padding: 0;
 }
 
+img {
+    display: block;
+}
+
 .container {
     width: 1158px;
     padding: 0 15px;
@@ -251,8 +255,8 @@ color: #404BBF;
 
  /*-------------------team------------------*/
 .team-container {
-padding-top: 32px;
-padding-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
  .team {
@@ -332,6 +336,7 @@ padding-bottom: 120px;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         margin-bottom: 72px;
+
  }
 
  .services-list {
