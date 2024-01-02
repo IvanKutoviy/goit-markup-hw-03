@@ -226,8 +226,8 @@ color: #404BBF;
  }
 
  .features-item {
-    flex-basis: calc((100% - 72px) / 4));
-    margin-right: 0;
+        margin-right: 0;
+        width: calc ((100% - 72px)/4) ;
 
 
  }
@@ -263,6 +263,7 @@ color: #404BBF;
     background: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
+    
  }
 
  .our-team {
@@ -274,6 +275,7 @@ color: #404BBF;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         margin-bottom: 72px;
+
  }
 
  .team-list {
@@ -285,6 +287,7 @@ color: #404BBF;
  .team-item {
     margin-right: 0;
     background-color: #FFFFFF
+    border-radius: 0px 0px 4px 4px;
 
  }
 
@@ -298,6 +301,7 @@ color: #404BBF;
         letter-spacing: 0.02em;
         text-align: center;
         margin-bottom: 8px;
+        border-radius: 0px 0px 4px 4px;
  }
 
  .team-item-job {
