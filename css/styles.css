@@ -227,7 +227,7 @@ color: #404BBF;
 
  .features-item {
         margin-right: 0;
-        width: calc ((100%-72px)/4);
+        flex-basis: calc ((100%-72px)/4);
 
 
  }
